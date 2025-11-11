@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ejercicio Web</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <h1>Ejercicio Web</h1>
+
+  <main id="app">
+    <form id="contact-form">
+      <label>
+        Nombre:
+        <input id="name" name="name" required />
+      </label>
+      <label>
+        Email:
+        <input id="email" name="email" type="email" required />
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="result" aria-live="polite"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
